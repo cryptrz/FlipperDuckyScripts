@@ -1,3 +1,7 @@
+REM This script gets an IP address on icanhazip.com 
+REM Then it gives the IP address to ipinfo.io
+REM It displays current IP and location
+REM
 REM Minimizes open windows
 WINDOWS d 
 DELAY 300

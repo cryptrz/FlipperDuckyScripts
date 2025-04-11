@@ -1,3 +1,6 @@
+REM Script tested on Windows 11
+REM This script gets the current IP address
+REM
 REM Opens the Run window (WIN+R)
 GUI r
 DELAY 400
