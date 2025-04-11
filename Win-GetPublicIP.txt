@@ -1,7 +1,10 @@
+REM Opens the Run window (WIN+R)
 GUI r
 DELAY 400
+REM Opens Powershell
 STRING powershell
 ENTER
 DELAY 1400
+REM Execute command for getting current IP address
 STRING (Invoke-WebRequest -Uri icanhazip.com).Content;
 ENTER

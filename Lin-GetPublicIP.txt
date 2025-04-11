@@ -1,0 +1,9 @@
+REM Minimizes open windows
+WINDOWS d 
+DELAY 300
+REM Opens a terminal
+CTRL-ALT t
+DELAY 300
+REM Executes 2 curl commands for getting IP address and location 
+STRING curl ipinfo.io/$(curl icanhazip.com)
+ENTER
