@@ -1,4 +1,4 @@
-REM Bash version for Rick Roll
+REM Nyancat Bash version for Rick Roll
 WINDOWS d
 DELAY 800
 CTRL-ALT t
