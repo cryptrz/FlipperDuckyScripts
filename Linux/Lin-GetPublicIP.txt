@@ -1,14 +1,12 @@
-REM Script tested on Linux Mint 22
-REM This script gets an IP address on icanhazip.com 
+REM Script tested on Linux Mint 22, Ubuntu 25.04 and Pop!_OS 22.04
+REM This script gets an IP address on icanhazip.com
 REM Then it gives the IP address to ipinfo.io
 REM It displays current IP and location
-REM
-REM Minimizes open windows
-WINDOWS d 
-DELAY 300
+DELAY 800
 REM Opens a terminal
 CTRL-ALT t
-DELAY 300
-REM Executes 2 curl commands for getting IP address and location 
+DELAY 800
+ENTER
+REM Executes 2 curl commands for getting IP address and location
 STRING curl ipinfo.io/$(curl icanhazip.com)
 ENTER
