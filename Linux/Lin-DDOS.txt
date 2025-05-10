@@ -1,3 +1,4 @@
+REM Script tested on Linux Mint 22, Ubuntu 25.04 and Pop!_OS 22.04
 REM Executes a DDOS attack to a predefined target
 REM Opens a terminal
 CTRL-ALT t
