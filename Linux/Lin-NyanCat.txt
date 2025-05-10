@@ -1,6 +1,5 @@
+REM Script tested on Linux Mint 22, Ubuntu 25.04 and Pop!_OS 22.04
 REM Nyancat Bash version for Rick Roll
-WINDOWS d
-DELAY 800
 CTRL-ALT t
 DELAY 800
 STRING firefox
@@ -8,8 +7,8 @@ DELAY 800
 ENTER
 DELAY 800
 CTRL l
-STRING https://www.youtube.com/watch?v=2yJgwwDcgV8 
+STRING https://www.youtube.com/watch?v=2yJgwwDcgV8
 DELAY 800
-ENTER 
+ENTER
 DELAY 5000
 STRING f
