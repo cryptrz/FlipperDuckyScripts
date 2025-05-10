@@ -1,4 +1,4 @@
-REM Script tested on Ubuntu 25.04 and Linux Mint 22
+REM Script tested on Ubuntu 25.04, Pop!_OS 22.04 and Linux Mint 22
 REM This script extractx Wi-Fi credentials on Linux
 CTRL-ALT t
 DELAY 800
