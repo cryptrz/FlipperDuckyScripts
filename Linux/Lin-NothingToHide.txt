@@ -1,8 +1,6 @@
-REM This script opens everything in the home folder 
-REM Tested on Ubuntu 25.04
+REM Script tested on Linux Mint 22, Ubuntu 25.04 and Pop!_OS 22.04
+REM This script opens everything in the home folder
 REM Minimizes every window
-WINDOWS d
-DELAY 800
 REM Opens a terminal
 CTRL-ALT t
 DELAY 800
